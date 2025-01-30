@@ -13,15 +13,16 @@ body {
 
 .card-container {
     background: #D5E0F6;
-    height: 100vh;
+    height: 90dvh;
 }
 
 .card {
     background-color: #fff;
     display: flex;
     position: relative;
-    left: 580px;
-    top: 150px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     height: 400px;
     width: 420px;
     box-shadow: 0px 0px 5px 0px rgba(55, 55, 53, 0.64);
