@@ -6,6 +6,8 @@
     <title>Profile - HNG InternShip</title>
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Pro CSS -->
+    <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js"></script>
     <!-- CUSTOM CSS -->
      <link rel="stylesheet" href="./css/style.css">
      <!-- CUSTON JAVASCRIPT -->
@@ -13,7 +15,7 @@
 </head>
 <body>
     <div class="card-container">
-        <div class="time">
+        <div class="time" data-testid="currentTimeUTC">
             <p>Time:&nbsp;<span id="time"></span></p>
         </div>
         <div class="card">
@@ -24,6 +26,7 @@
                 </div>
                 <div class="card-primay-text">
                     <h3 data-testid="fullName">Adetunj Adeleye</h3>
+                    <h4 data-testid="jobTitle">FrontEnd Engineer</h4>
                     <h6 data-testid="currentLocation">Lagos, Nigeria</h6>
                 </div>
                 <div data-testid="shortBoi" class="inro">
@@ -33,9 +36,17 @@
                 </div>
             </div>
         
-            <div class="buttons">
-                <button class="btn-primary">Message</button>
-                <button class="btn-secondary">Follow Me</button>
+            <div data-testid="socialLinks" class="social-icons">
+               <ul>
+                <li><a href="https://github.com/reigndesign" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://x.com/igbengoos" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/gbengaoflagos/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/oluwagbenga-adeleye/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+               </ul>
+            </div>
+            <div class="contact-info">
+                <p data-testid="emailAddress"><i class="fa-solid fa-envelope"></i>&nbsp;<a href="mailto:ade@mediawolf.com.ng">ade@mediawolf.com.ng</a></p>
+                <p data-testid="phoneNumber"><i class="fa-solid fa-phone"></i>&nbsp;+234(809)201 6867</p>
             </div>
             <div data-testid="skill" class="card-skill">
                 <h6>Skills</h6>
