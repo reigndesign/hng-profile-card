@@ -183,6 +183,8 @@ body {
     .card-container {
         background: #D5E0F6;
         height: 100dvh;
+        overflow: hidden;
+        padding: 10px;
     }
 
     
