@@ -13,7 +13,7 @@ body {
 
 .card-container {
     background: #D5E0F6;
-    height: 90dvh;
+    height: 100dvh;
 }
 
 .card {
@@ -182,7 +182,7 @@ body {
 
     .card-container {
         background: #D5E0F6;
-        height: 2532px;
+        height: 100dvh;
     }
 
     .card {
