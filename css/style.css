@@ -53,13 +53,16 @@ body {
 }
 
 .card-primay-text h3 {
-    font-family: "Poppins", serif;
     font-size: 14px;
     font-weight: 600;
 }
 
+.card-primay-text h4 {
+    font-size: 12px; font-weight: 500;
+    font-style: normal;
+}
+
 .card-primay-text h6 {
-    font-family: "Poppins", serif;
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -76,47 +79,53 @@ body {
 }
 
 
-.buttons {
+.social-icons {
     position: absolute;
-    left: 0;
-    margin-top: 250px;
-    margin-left: 20px;
+    top: 250px; left: 20px;
 }
 
-.btn-primary {
-    padding: 5px 12px;
-    background-color: #0571ED;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 20px;
-    transition: 0.3s;
-    cursor: pointer;
+.social-icons ul {
+    list-style-type: none;
+    margin: 0; padding: 0;
 }
 
-/* .btn-primary:hover,
-.btn-primary:active {
-    background-color: #FFFFFF;
-    border: 1px solid #0571ED;
-    color: #000;
-} */
-
-.btn-secondary {
-    padding: 5px 12px;
-    background-color: transparent;
-    border: 1px solid #0571ED;
-    border-radius: 20px;
-    margin-left: 5px;
-    transition: 0.3s;
-    cursor: pointer;
+.social-icons ul li {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 7px 7px 0;
+    
 }
 
-/* .btn-secondary:hover,
-.btn-secondary:active {
-    background-color: #0571ED;
-    color: #FFFFFF;
-    border: none;
-} */
+.social-icons ul a:link,
+.social-icons ul a:visited {
+    text-decoration: none;
+    color: #1F1A36;
 
+}
+
+.contact-info {
+    position: absolute;
+    top: 272px; left: 20px;
+
+}
+
+.contact-info p {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 300; font-size: 10px;
+    color: #1F1A36;
+}
+
+.contact-info p::after {
+    content: " ";
+    margin-left: 70px;
+}
+
+.contact-info a:link,
+.contact-info a:visited {
+    text-decoration: none;
+    color: #1F1A36;
+}
 
 .card-skill {
     background-color: #1F1A36;
