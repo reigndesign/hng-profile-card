@@ -105,6 +105,7 @@ body {
 
 .social-icons ul a:hover {
     opacity: 1;
+}
 
 .contact-info {
     position: absolute;
@@ -217,5 +218,19 @@ body {
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-container {
+        background: #D5E0F6;
+        height: 100dvh;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .card-skill {
+        padding: 25px;
+    }
 }
